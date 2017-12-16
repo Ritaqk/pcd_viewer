@@ -1,0 +1,275 @@
+﻿  stdafx.cpp
+  PCL_Experiments.cpp
+C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/bind.hpp(592): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/bind.hpp(1354): note: see reference to function template instantiation 'R boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>::operator ()<int,F,boost::_bi::rrlist5<A1,std::A2,A3,A4,A5>>(boost::_bi::type<int>,F &,A &,long)' being compiled
+          with
+          [
+              R=int,
+              PointInT=pcl::PointXYZRGB,
+              F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,
+              A1=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              A2=std::size_t,
+              A3=double,
+              A4=std::vector<int,std::allocator<int>> &,
+              A5=std::vector<float,std::allocator<float>> &,
+              A=boost::_bi::rrlist5<const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/bind.hpp(1354): note: see reference to function template instantiation 'R boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>::operator ()<int,F,boost::_bi::rrlist5<A1,std::A2,A3,A4,A5>>(boost::_bi::type<int>,F &,A &,long)' being compiled
+          with
+          [
+              R=int,
+              PointInT=pcl::PointXYZRGB,
+              F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,
+              A1=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              A2=std::size_t,
+              A3=double,
+              A4=std::vector<int,std::allocator<int>> &,
+              A5=std::vector<float,std::allocator<float>> &,
+              A=boost::_bi::rrlist5<const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(138): note: see reference to function template instantiation 'int boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>::operator ()<const pcl::PointCloud<pcl::PointXYZRGB>&,std::T,double,std::vector<_Ty,std::allocator<_Ty>>&,std::vector<float,std::allocator<float>>&>(A1,A2 &&,A3 &&,A4,A5)' being compiled
+          with
+          [
+              PointInT=pcl::PointXYZRGB,
+              _Ty=int,
+              T=std::size_t,
+              A1=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              A2=std::size_t,
+              A3=double,
+              A4=std::vector<int,std::allocator<int>> &,
+              A5=std::vector<float,std::allocator<float>> &
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(138): note: see reference to function template instantiation 'int boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>::operator ()<const pcl::PointCloud<pcl::PointXYZRGB>&,std::T,double,std::vector<_Ty,std::allocator<_Ty>>&,std::vector<float,std::allocator<float>>&>(A1,A2 &&,A3 &&,A4,A5)' being compiled
+          with
+          [
+              PointInT=pcl::PointXYZRGB,
+              _Ty=int,
+              T=std::size_t,
+              A1=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              A2=std::size_t,
+              A3=double,
+              A4=std::vector<int,std::allocator<int>> &,
+              A5=std::vector<float,std::allocator<float>> &
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(132): note: while compiling class template member function 'int boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,std::T1,T2,T3,T4>::invoke(boost::detail::function::function_buffer &,T0,std::T1,T2,T3,T4)'
+          with
+          [
+              FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(925): note: see reference to function template instantiation 'int boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,std::T1,T2,T3,T4>::invoke(boost::detail::function::function_buffer &,T0,std::T1,T2,T3,T4)' being compiled
+          with
+          [
+              FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(925): note: see reference to class template instantiation 'boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,std::T1,T2,T3,T4>' being compiled
+          with
+          [
+              FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(716): note: see reference to function template instantiation 'void boost::function5<R,T0,std::T1,T2,T3,T4>::assign_to<Functor>(Functor)' being compiled
+          with
+          [
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(716): note: see reference to function template instantiation 'void boost::function5<R,T0,std::T1,T2,T3,T4>::assign_to<Functor>(Functor)' being compiled
+          with
+          [
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(1062): note: see reference to function template instantiation 'boost::function5<R,T0,std::T1,T2,T3,T4>::function5<boost::_bi::bind_t<R,boost::_mfi::cmf5<R,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>>(Functor,int)' being compiled
+          with
+          [
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &,
+              PointInT=pcl::PointXYZRGB,
+              _Ty=int,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(1061): note: see reference to function template instantiation 'boost::function5<R,T0,std::T1,T2,T3,T4>::function5<boost::_bi::bind_t<R,boost::_mfi::cmf5<R,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>>(Functor,int)' being compiled
+          with
+          [
+              R=int,
+              T0=const pcl::PointCloud<pcl::PointXYZRGB> &,
+              T1=std::size_t,
+              T2=double,
+              T3=std::vector<int,std::allocator<int>> &,
+              T4=std::vector<float,std::allocator<float>> &,
+              PointInT=pcl::PointXYZRGB,
+              _Ty=int,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(1114): note: see reference to function template instantiation 'boost::function<int (const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &)>::function<boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>>(Functor,int)' being compiled
+          with
+          [
+              _Ty=int,
+              PointInT=pcl::PointXYZRGB,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/function/function_template.hpp(1114): note: see reference to function template instantiation 'boost::function<int (const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &)>::function<boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>>(Functor,int)' being compiled
+          with
+          [
+              _Ty=int,
+              PointInT=pcl::PointXYZRGB,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/features/impl/feature.hpp(160): note: see reference to function template instantiation 'boost::function<int (const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &)> &boost::function<int (const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &)>::operator =<boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>>(Functor)' being compiled
+          with
+          [
+              _Ty=int,
+              PointInT=pcl::PointXYZRGB,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/features/impl/feature.hpp(160): note: see reference to function template instantiation 'boost::function<int (const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &)> &boost::function<int (const pcl::PointCloud<pcl::PointXYZRGB> &,std::size_t,double,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &)>::operator =<boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<PointInT>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<PointInT>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>>(Functor)' being compiled
+          with
+          [
+              _Ty=int,
+              PointInT=pcl::PointXYZRGB,
+              Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZRGB>,const pcl::PointCloud<pcl::PointXYZRGB> &,int,int,std::vector<int,std::allocator<int>> &,std::vector<float,std::allocator<float>> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZRGB>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+          ]
+  C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/features/impl/feature.hpp(94): note: while compiling class template member function 'bool pcl::Feature<PointInT,PointOutT>::initCompute(void)'
+          with
+          [
+              PointInT=pcl::PointXYZRGB,
+              PointOutT=pcl::Normal
+          ]
+  C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/features/impl/feature.hpp(191): note: see reference to function template instantiation 'bool pcl::Feature<PointInT,PointOutT>::initCompute(void)' being compiled
+          with
+          [
+              PointInT=pcl::PointXYZRGB,
+              PointOutT=pcl::Normal
+          ]
+  C:\Program Files\PCL 1.8.1\include\pcl-1.8\pcl/features/normal_3d.h(200): note: see reference to class template instantiation 'pcl::Feature<PointInT,PointOutT>' being compiled
+          with
+          [
+              PointInT=pcl::PointXYZRGB,
+              PointOutT=pcl::Normal
+          ]
+  PCL_Experiments.cpp(326): note: see reference to class template instantiation 'pcl::NormalEstimation<pcl::PointXYZRGB,pcl::Normal>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(54): note: see reference to class template instantiation 'boost::arg<9>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(53): note: see reference to class template instantiation 'boost::arg<8>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(52): note: see reference to class template instantiation 'boost::arg<7>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(51): note: see reference to class template instantiation 'boost::arg<6>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(50): note: see reference to class template instantiation 'boost::arg<5>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(49): note: see reference to class template instantiation 'boost::arg<4>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(48): note: see reference to class template instantiation 'boost::arg<3>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(47): note: see reference to class template instantiation 'boost::arg<2>' being compiled
+  C:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(46): note: see reference to class template instantiation 'boost::arg<1>' being compiled
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkLODActor * __cdecl vtkLODActor::New(void)" (?New@vtkLODActor@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "class boost::system::error_category const & __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAABVerror_category@12@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "class boost::system::error_category const & __cdecl boost::system::generic_category(void)" (?generic_category@system@boost@@YAABVerror_category@12@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "bool __cdecl boost::this_thread::interruptible_wait(void *,struct boost::detail::timeout)" (?interruptible_wait@this_thread@boost@@YA_NPAXUtimeout@detail@2@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkProp3D::SetUserMatrix(class vtkMatrix4x4 *)" (?SetUserMatrix@vtkProp3D@@QAEXPAVvtkMatrix4x4@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class vtkSmartPointerBase & __thiscall vtkSmartPointerBase::operator=(class vtkObjectBase *)" (??4vtkSmartPointerBase@@QAEAAV0@PAVvtkObjectBase@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class vtkSmartPointerBase & __thiscall vtkSmartPointerBase::operator=(class vtkSmartPointerBase const &)" (??4vtkSmartPointerBase@@QAEAAV0@ABV0@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkSmartPointerBase::~vtkSmartPointerBase(void)" (??1vtkSmartPointerBase@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkSmartPointerBase::vtkSmartPointerBase(void)" (??0vtkSmartPointerBase@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkSmartPointerBase::vtkSmartPointerBase(class vtkObjectBase *)" (??0vtkSmartPointerBase@@QAE@PAVvtkObjectBase@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "protected: __thiscall vtkSmartPointerBase::vtkSmartPointerBase(class vtkObjectBase *,class vtkSmartPointerBase::NoReference const &)" (??0vtkSmartPointerBase@@IAE@PAVvtkObjectBase@@ABVNoReference@0@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkAOSDataArrayTemplate<float>::SetArray(float *,__int64,int,int)" (?SetArray@?$vtkAOSDataArrayTemplate@M@@QAEXPAM_JHH@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class vtkAlgorithmOutput * __thiscall vtkAlgorithm::GetOutputPort(int)" (?GetOutputPort@vtkAlgorithm@@QAEPAVvtkAlgorithmOutput@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkAOSDataArrayTemplate<unsigned char>::SetArray(unsigned char *,__int64,int,int)" (?SetArray@?$vtkAOSDataArrayTemplate@E@@QAEXPAE_JHH@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: unsigned char * __thiscall vtkAOSDataArrayTemplate<unsigned char>::GetPointer(__int64)" (?GetPointer@?$vtkAOSDataArrayTemplate@E@@QAEPAE_J@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkDataSetMapper::SetInputData(class vtkDataSet *)" (?SetInputData@vtkDataSetMapper@@QAEXPAVvtkDataSet@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkDataSetMapper * __cdecl vtkDataSetMapper::New(void)" (?New@vtkDataSetMapper@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkMatrix4x4 * __cdecl vtkMatrix4x4::New(void)" (?New@vtkMatrix4x4@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class vtkProperty * __thiscall vtkActor::GetProperty(void)" (?GetProperty@vtkActor@@QAEPAVvtkProperty@@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkUnsignedCharArray * __cdecl vtkUnsignedCharArray::New(void)" (?New@vtkUnsignedCharArray@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkPolyData::SetLines(class vtkCellArray *)" (?SetLines@vtkPolyData@@QAEXPAVvtkCellArray@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class vtkCellArray * __thiscall vtkPolyData::GetVerts(void)" (?GetVerts@vtkPolyData@@QAEPAVvtkCellArray@@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkPolyData::SetVerts(class vtkCellArray *)" (?SetVerts@vtkPolyData@@QAEXPAVvtkCellArray@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkPolyData * __cdecl vtkPolyData::New(void)" (?New@vtkPolyData@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkDebugLeaksManager::~vtkDebugLeaksManager(void)" (??1vtkDebugLeaksManager@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkDebugLeaksManager::vtkDebugLeaksManager(void)" (??0vtkDebugLeaksManager@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::radiusSearch(class pcl::PointCloud<struct pcl::PointXYZRGB> const &,int,double,class std::vector<int,class std::allocator<int> > &,class std::vector<float,class std::allocator<float> > &,unsigned int)const " (?radiusSearch@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEHABV?$PointCloud@UPointXYZRGB@pcl@@@3@HNAAV?$vector@HV?$allocator@H@std@@@std@@AAV?$vector@MV?$allocator@M@std@@@6@I@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::radiusSearch(int,double,class std::vector<int,class std::allocator<int> > &,class std::vector<float,class std::allocator<float> > &,unsigned int)const " (?radiusSearch@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEHHNAAV?$vector@HV?$allocator@H@std@@@std@@AAV?$vector@MV?$allocator@M@std@@@5@I@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::radiusSearch(class pcl::PointCloud<struct pcl::PointXYZRGB> const &,class std::vector<int,class std::allocator<int> > const &,double,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > &,class std::vector<class std::vector<float,class std::allocator<float> >,class std::allocator<class std::vector<float,class std::allocator<float> > > > &,unsigned int)const " (?radiusSearch@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEXABV?$PointCloud@UPointXYZRGB@pcl@@@3@ABV?$vector@HV?$allocator@H@std@@@std@@NAAV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@6@AAV?$vector@V?$vector@MV?$allocator@M@std@@@std@@V?$allocator@V?$vector@MV?$allocator@M@std@@@std@@@2@@6@I@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::nearestKSearch(class pcl::PointCloud<struct pcl::PointXYZRGB> const &,int,int,class std::vector<int,class std::allocator<int> > &,class std::vector<float,class std::allocator<float> > &)const " (?nearestKSearch@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEHABV?$PointCloud@UPointXYZRGB@pcl@@@3@HHAAV?$vector@HV?$allocator@H@std@@@std@@AAV?$vector@MV?$allocator@M@std@@@6@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::nearestKSearch(int,int,class std::vector<int,class std::allocator<int> > &,class std::vector<float,class std::allocator<float> > &)const " (?nearestKSearch@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEHHHAAV?$vector@HV?$allocator@H@std@@@std@@AAV?$vector@MV?$allocator@M@std@@@5@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::nearestKSearch(class pcl::PointCloud<struct pcl::PointXYZRGB> const &,class std::vector<int,class std::allocator<int> > const &,int,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > &,class std::vector<class std::vector<float,class std::allocator<float> >,class std::allocator<class std::vector<float,class std::allocator<float> > > > &)const " (?nearestKSearch@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEXABV?$PointCloud@UPointXYZRGB@pcl@@@3@ABV?$vector@HV?$allocator@H@std@@@std@@HAAV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@6@AAV?$vector@V?$vector@MV?$allocator@M@std@@@std@@V?$allocator@V?$vector@MV?$allocator@M@std@@@std@@@2@@6@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::setInputCloud(class boost::shared_ptr<class pcl::PointCloud<struct pcl::PointXYZRGB> const > const &,class boost::shared_ptr<class std::vector<int,class std::allocator<int> > const > const &)" (?setInputCloud@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UAEXABV?$shared_ptr@$$CBV?$PointCloud@UPointXYZRGB@pcl@@@pcl@@@boost@@ABV?$shared_ptr@$$CBV?$vector@HV?$allocator@H@std@@@std@@@5@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::getSortedResults(void)" (?getSortedResults@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UAE_NXZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::setSortedResults(bool)" (?setSortedResults@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UAEX_N@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::getName(void)const " (?getName@?$Search@UPointXYZRGB@pcl@@@search@pcl@@UBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall pcl::search::Search<struct pcl::PointXYZRGB>::Search<struct pcl::PointXYZRGB>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (??0?$Search@UPointXYZRGB@pcl@@@search@pcl@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall pcl::search::KdTree<struct pcl::PointXYZRGB,class pcl::KdTreeFLANN<struct pcl::PointXYZRGB,struct flann::L2_Simple<float> > >::KdTree<struct pcl::PointXYZRGB,class pcl::KdTreeFLANN<struct pcl::PointXYZRGB,struct flann::L2_Simple<float> > >(bool)" (??0?$KdTree@UPointXYZRGB@pcl@@V?$KdTreeFLANN@UPointXYZRGB@pcl@@U?$L2_Simple@M@flann@@@2@@search@pcl@@QAE@_N@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall pcl::search::OrganizedNeighbor<struct pcl::PointXYZRGB>::nearestKSearch(struct pcl::PointXYZRGB const &,int,class std::vector<int,class std::allocator<int> > &,class std::vector<float,class std::allocator<float> > &)const " (?nearestKSearch@?$OrganizedNeighbor@UPointXYZRGB@pcl@@@search@pcl@@UBEHABUPointXYZRGB@3@HAAV?$vector@HV?$allocator@H@std@@@std@@AAV?$vector@MV?$allocator@M@std@@@6@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall pcl::search::OrganizedNeighbor<struct pcl::PointXYZRGB>::estimateProjectionMatrix(void)" (?estimateProjectionMatrix@?$OrganizedNeighbor@UPointXYZRGB@pcl@@@search@pcl@@QAEXXZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall pcl::search::OrganizedNeighbor<struct pcl::PointXYZRGB>::radiusSearch(struct pcl::PointXYZRGB const &,double,class std::vector<int,class std::allocator<int> > &,class std::vector<float,class std::allocator<float> > &,unsigned int)const " (?radiusSearch@?$OrganizedNeighbor@UPointXYZRGB@pcl@@@search@pcl@@UBEHABUPointXYZRGB@3@NAAV?$vector@HV?$allocator@H@std@@@std@@AAV?$vector@MV?$allocator@M@std@@@6@I@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "protected: virtual void __thiscall pcl::NormalEstimation<struct pcl::PointXYZRGB,struct pcl::Normal>::computeFeature(class pcl::PointCloud<struct pcl::Normal> &)" (?computeFeature@?$NormalEstimation@UPointXYZRGB@pcl@@UNormal@2@@pcl@@MAEXAAV?$PointCloud@UNormal@pcl@@@2@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "protected: bool __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::initCompute(void)" (?initCompute@?$PCLBase@UPointXYZRGB@pcl@@@pcl@@IAE_NXZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::setIndices(class boost::shared_ptr<class std::vector<int,class std::allocator<int> > > const &)" (?setIndices@?$PCLBase@UPointXYZRGB@pcl@@@pcl@@UAEXABV?$shared_ptr@V?$vector@HV?$allocator@H@std@@@std@@@boost@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::setIndices(class boost::shared_ptr<class std::vector<int,class std::allocator<int> > const > const &)" (?setIndices@?$PCLBase@UPointXYZRGB@pcl@@@pcl@@UAEXABV?$shared_ptr@$$CBV?$vector@HV?$allocator@H@std@@@std@@@boost@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::setIndices(class boost::shared_ptr<struct pcl::PointIndices const > const &)" (?setIndices@?$PCLBase@UPointXYZRGB@pcl@@@pcl@@UAEXABV?$shared_ptr@$$CBUPointIndices@pcl@@@boost@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::setIndices(unsigned int,unsigned int,unsigned int,unsigned int)" (?setIndices@?$PCLBase@UPointXYZRGB@pcl@@@pcl@@UAEXIIII@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::setInputCloud(class boost::shared_ptr<class pcl::PointCloud<struct pcl::PointXYZRGB> const > const &)" (?setInputCloud@?$PCLBase@UPointXYZRGB@pcl@@@pcl@@UAEXABV?$shared_ptr@$$CBV?$PointCloud@UPointXYZRGB@pcl@@@pcl@@@boost@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall pcl::PCLBase<struct pcl::PointXYZRGB>::PCLBase<struct pcl::PointXYZRGB>(void)" (??0?$PCLBase@UPointXYZRGB@pcl@@@pcl@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static void __cdecl pcl::visualization::PCLVisualizer::convertToVtkMatrix(class Eigen::Matrix<float,4,1,0,4,1> const &,class Eigen::Quaternion<float,0> const &,class vtkSmartPointer<class vtkMatrix4x4> &)" (?convertToVtkMatrix@PCLVisualizer@visualization@pcl@@SAXABV?$Matrix@M$03$00$0A@$03$00@Eigen@@ABV?$Quaternion@M$0A@@5@AAV?$vtkSmartPointer@VvtkMatrix4x4@@@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "private: void __thiscall pcl::visualization::PCLVisualizer::allocVtkPolyData(class vtkSmartPointer<class vtkPolyData> &)" (?allocVtkPolyData@PCLVisualizer@visualization@pcl@@AAEXAAV?$vtkSmartPointer@VvtkPolyData@@@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "private: void __thiscall pcl::visualization::PCLVisualizer::updateCells(class vtkSmartPointer<class vtkIdTypeArray> &,class vtkSmartPointer<class vtkIdTypeArray> &,__int64)" (?updateCells@PCLVisualizer@visualization@pcl@@AAEXAAV?$vtkSmartPointer@VvtkIdTypeArray@@@@0_J@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "private: void __thiscall pcl::visualization::PCLVisualizer::createActorFromVTKDataSet(class vtkSmartPointer<class vtkDataSet> const &,class vtkSmartPointer<class vtkLODActor> &,bool)" (?createActorFromVTKDataSet@PCLVisualizer@visualization@pcl@@AAEXABV?$vtkSmartPointer@VvtkDataSet@@@@AAV?$vtkSmartPointer@VvtkLODActor@@@@_N@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "private: void __thiscall pcl::visualization::PCLVisualizer::addActorToRenderer(class vtkSmartPointer<class vtkProp> const &,int)" (?addActorToRenderer@PCLVisualizer@visualization@pcl@@AAEXABV?$vtkSmartPointer@VvtkProp@@@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall pcl::visualization::PCLVisualizer::initCameraParameters(void)" (?initCameraParameters@PCLVisualizer@visualization@pcl@@QAEXXZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: bool __thiscall pcl::visualization::PCLVisualizer::addCone(struct pcl::ModelCoefficients const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?addCone@PCLVisualizer@visualization@pcl@@QAE_NABUModelCoefficients@3@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: bool __thiscall pcl::visualization::PCLVisualizer::addPlane(struct pcl::ModelCoefficients const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?addPlane@PCLVisualizer@visualization@pcl@@QAE_NABUModelCoefficients@3@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall pcl::visualization::PCLVisualizer::createViewPort(double,double,double,double,int &)" (?createViewPort@PCLVisualizer@visualization@pcl@@QAEXNNNNAAH@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: bool __thiscall pcl::visualization::PCLVisualizer::wasStopped(void)const " (?wasStopped@PCLVisualizer@visualization@pcl@@QBE_NXZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: bool __thiscall pcl::visualization::PCLVisualizer::setPointCloudRenderingProperties(int,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?setPointCloudRenderingProperties@PCLVisualizer@visualization@pcl@@QAE_NHNABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: bool __thiscall pcl::visualization::PCLVisualizer::addText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?addText@PCLVisualizer@visualization@pcl@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH0H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall pcl::visualization::PCLVisualizer::setBackgroundColor(double const &,double const &,double const &,int)" (?setBackgroundColor@PCLVisualizer@visualization@pcl@@QAEXABN00H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: bool __thiscall pcl::visualization::PCLVisualizer::removeShape(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?removeShape@PCLVisualizer@visualization@pcl@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall pcl::visualization::PCLVisualizer::addCoordinateSystem(double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?addCoordinateSystem@PCLVisualizer@visualization@pcl@@QAEXNABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall pcl::visualization::PCLVisualizer::spinOnce(int,bool)" (?spinOnce@PCLVisualizer@visualization@pcl@@QAEXH_N@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class boost::signals2::connection __thiscall pcl::visualization::PCLVisualizer::registerMouseCallback(class boost::function<void __cdecl(class pcl::visualization::MouseEvent const &)>)" (?registerMouseCallback@PCLVisualizer@visualization@pcl@@QAE?AVconnection@signals2@boost@@V?$function@$$A6AXABVMouseEvent@visualization@pcl@@@Z@6@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: class boost::signals2::connection __thiscall pcl::visualization::PCLVisualizer::registerKeyboardCallback(class boost::function<void __cdecl(class pcl::visualization::KeyboardEvent const &)>)" (?registerKeyboardCallback@PCLVisualizer@visualization@pcl@@QAE?AVconnection@signals2@boost@@V?$function@$$A6AXABVKeyboardEvent@visualization@pcl@@@Z@6@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall pcl::visualization::PCLVisualizer::PCLVisualizer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (??0PCLVisualizer@visualization@pcl@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "class vtkSmartPointer<class vtkDataSet> __cdecl pcl::visualization::createLine(class Eigen::Matrix<float,4,1,0,4,1> const &,class Eigen::Matrix<float,4,1,0,4,1> const &)" (?createLine@visualization@pcl@@YA?AV?$vtkSmartPointer@VvtkDataSet@@@@ABV?$Matrix@M$03$00$0A@$03$00@Eigen@@0@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::visualization::PointCloudGeometryHandlerXYZ<struct pcl::PointXYZRGB>::getGeometry(class vtkSmartPointer<class vtkPoints> &)const " (?getGeometry@?$PointCloudGeometryHandlerXYZ@UPointXYZRGB@pcl@@@visualization@pcl@@UBEXAAV?$vtkSmartPointer@VvtkPoints@@@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall pcl::visualization::PointCloudGeometryHandlerXYZ<struct pcl::PointXYZRGB>::PointCloudGeometryHandlerXYZ<struct pcl::PointXYZRGB>(class boost::shared_ptr<class pcl::PointCloud<struct pcl::PointXYZRGB> const > const &)" (??0?$PointCloudGeometryHandlerXYZ@UPointXYZRGB@pcl@@@visualization@pcl@@QAE@ABV?$shared_ptr@$$CBV?$PointCloud@UPointXYZRGB@pcl@@@pcl@@@boost@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall pcl::visualization::PointCloudGeometryHandlerXYZ<struct pcl::PointXYZ>::getGeometry(class vtkSmartPointer<class vtkPoints> &)const " (?getGeometry@?$PointCloudGeometryHandlerXYZ@UPointXYZ@pcl@@@visualization@pcl@@UBEXAAV?$vtkSmartPointer@VvtkPoints@@@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall pcl::visualization::PointCloudGeometryHandlerXYZ<struct pcl::PointXYZ>::PointCloudGeometryHandlerXYZ<struct pcl::PointXYZ>(class boost::shared_ptr<class pcl::PointCloud<struct pcl::PointXYZ> const > const &)" (??0?$PointCloudGeometryHandlerXYZ@UPointXYZ@pcl@@@visualization@pcl@@QAE@ABV?$shared_ptr@$$CBV?$PointCloud@UPointXYZ@pcl@@@pcl@@@boost@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "void __cdecl pcl::console::print(enum pcl::console::VERBOSITY_LEVEL,char const *,...)" (?print@console@pcl@@YAXW4VERBOSITY_LEVEL@12@PBDZZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "int __cdecl pcl::console::find_argument(int,char * *,char const *)" (?find_argument@console@pcl@@YAHHPAPADPBD@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: void __thiscall vtkCellArray::SetCells(__int64,class vtkIdTypeArray *)" (?SetCells@vtkCellArray@@QAEX_JPAVvtkIdTypeArray@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkCellArray * __cdecl vtkCellArray::New(void)" (?New@vtkCellArray@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkPoints * __cdecl vtkPoints::New(void)" (?New@vtkPoints@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: int __thiscall vtkDataSetAttributes::SetScalars(class vtkDataArray *)" (?SetScalars@vtkDataSetAttributes@@QAEHPAVvtkDataArray@@@Z)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkSphereSource * __cdecl vtkSphereSource::New(void)" (?New@vtkSphereSource@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkFloatArray * __cdecl vtkFloatArray::New(void)" (?New@vtkFloatArray@@SAPAV1@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkObjectFactoryRegistryCleanup::~vtkObjectFactoryRegistryCleanup(void)" (??1vtkObjectFactoryRegistryCleanup@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: __thiscall vtkObjectFactoryRegistryCleanup::vtkObjectFactoryRegistryCleanup(void)" (??0vtkObjectFactoryRegistryCleanup@@QAE@XZ)
+PCL_Experiments.obj : error LNK2001: unresolved external symbol "public: static class vtkPolyDataMapper * __cdecl vtkPolyDataMapper::New(void)" (?New@vtkPolyDataMapper@@SAPAV1@XZ)
+C:\Users\ritaq\Documents\Uscan_Files\Other\PCL_Experiments\Release\PCL_Experiments.exe : fatal error LNK1120: 84 unresolved externals

@@ -1,0 +1,2 @@
+﻿  PCL_Experiments.cpp
+c:\users\ritaq\documents\uscan_files\other\pcl_experiments\pcl_experiments\pcl_experiments.cpp(6): fatal error C1083: Cannot open include file: 'boost/thread/thread.hpp': No such file or directory
